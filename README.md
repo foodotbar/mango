@@ -5,8 +5,11 @@ a Key-Value DB (just for fun, quick and dirty) like Redis
 
 1. Key-Value DB using Python3.3
 2. should install httplib2 Packages
-3. ʵGET", "SET", "AUTH", "URL" commands
-4. ʹuser guid is blow
+3. "GET", "SET", "AUTH", "URL" commands
+
+*********************************************
+********    At the client side   ************
+*********************************************
 
 
 [root@vm2 hDB_v1]# ./hDBclient_2.py
