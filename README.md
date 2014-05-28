@@ -10,11 +10,8 @@ a Key-Value DB (just for fun, quick and dirty) like Redis
 
 
 [root@vm2 hDB_v1]# ./hDBclient_2.py
-
 Only Support get/set :( 
-
 None
-
 [root@vm2 hDB_v1]# ./hDBclient_2.py GET ui
 ('ui', 'ioiowriqweorwerwqr')
 [root@vm2 hDB_v1]# ./hDBclient_2.py SET foo bar
