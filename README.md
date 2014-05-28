@@ -3,15 +3,18 @@ mango
 
 a Key-Value DB (just for fun, quick and dirty) like Redis
 
-1. Key-Value DB����Python3.3�������ɵ�
-2. ��Ҫ��װ httplib2 Packages
-3. ʵ����"GET", "SET", "AUTH", "URL" ����
-4. ʹ����������
+1. Key-Value DB using Python3.3
+2. should install httplib2 Packages
+3. ʵGET", "SET", "AUTH", "URL" commands
+4. ʹuser guid is blow
 
 
-[root@vm2 hDB_v1]# ./hDBclient_2.py 
+[root@vm2 hDB_v1]# ./hDBclient_2.py
+
 Only Support get/set :( 
+
 None
+
 [root@vm2 hDB_v1]# ./hDBclient_2.py GET ui
 ('ui', 'ioiowriqweorwerwqr')
 [root@vm2 hDB_v1]# ./hDBclient_2.py SET foo bar
