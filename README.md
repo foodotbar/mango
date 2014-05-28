@@ -14,10 +14,10 @@ Only Support get/set :(
 None
 [root@vm2 hDB_v1]# ./hDBclient_2.py GET ui
 ('ui', 'ioiowriqweorwerwqr')
-[root@vm2 hDB_v1]# ./hDBclient_2.py SET LiTao Tom
-('LiTao', 'Tom')
-[root@vm2 hDB_v1]# ./hDBclient_2.py GET LiTao
-('LiTao', 'Tom')
+[root@vm2 hDB_v1]# ./hDBclient_2.py SET foo bar
+('foo', 'bar')
+[root@vm2 hDB_v1]# ./hDBclient_2.py GET foo
+('foo', 'bar')
 [root@vm2 hDB_v1]# ./hDBclient_2.py AUTH root 123456
 ('root', '0')
 [root@vm2 hDB_v1]# ./hDBclient_2.py URL baidu www.baidu.com
